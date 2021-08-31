@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <body>
+
+    <div class="wrapper">
+      <div class="parent">
+        <div class="left">
+          <div class="avater">
+            <img
+              src="./assets/mypicBgrnd.png"
+              alt="Avatar"
+              width="150"
+              height="150"
+            />
+          </div>
+          <button
+            style="
+              color: black;
+              background-color: white;
+              width: 150px;
+              border-style: dotted;
+              border-radius: 20%;
+              margin-top: 10px;
+            "
+            routerLink="about"
+          >
+            ABOUT
+          </button>
+          <button
+            style="
+              color: black;
+              background-color: white;
+              width: 150px;
+              border-style: dotted;
+              border-radius: 20%;
+              margin-top: 10px;
+            "
+            routerLink="experience"
+          >
+            EXPERIENCE
+          </button>
+          <button
+            style="
+              color: black;
+              background-color: white;
+              width: 150px;
+              border-style: dotted;
+              border-radius: 20%;
+              margin-top: 10px;
+            "
+            routerLink="c"
+          >
+            EDUCATION
+          </button>
+          <button
+            style="
+              color: black;
+              background-color: white;
+              width: 150px;
+              border-style: dotted;
+              border-radius: 20%;
+              margin-top: 10px;
+            "
+            routerLink="d"
+          >
+            SKILLS
+          </button>
+          <button
+            style="
+              color: black;
+              background-color: white;
+              width: 150px;
+              border-style: dotted;
+              border-radius: 20%;
+              margin-top: 10px;
+            "
+            routerLink="e"
+          >
+            INTERESTS
+          </button>
+        </div>
+         <div class="right">
+          <div >
+            <router-outlet></router-outlet>
+          </div>
+         </div>
+
+      </div>
+    </div>
+
+    <!-- -->
+  </body>
+</html>

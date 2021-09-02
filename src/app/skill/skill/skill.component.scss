@@ -1,33 +1,9 @@
-section.resume-section {
-  display: flex;
-  align-items: center;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  max-width: 75rem;
-}
-
-section.resume-section .resume-section-content {
-  width: 100%;
-}
-
-.i {
-  height: 12px;
-  width: 12px;
-}
-
-@media (min-width: 768px) {
-  section.resume-section {
-      min-height: 100vh;
-  }
-}
-
-@media (min-width: 992px) {
-  section.resume-section {
-      padding-left: 3rem;
-      padding-right: 3rem;
-      padding-top: 5rem;
-      padding-bottom: 5rem;
-  }
+.header{
+  text-align: center;
+  padding-top: 10%;
+  width:auto;
+  width: 65%;
+  height: 65%;
+  padding-left: 10%;
+  padding-right: 5%;
 }

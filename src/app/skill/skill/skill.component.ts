@@ -17,7 +17,7 @@ export class SkillComponent implements AfterViewInit {
 
   barChartMethod() {
     this.barChart = new Chart(this.barCanvas.nativeElement, {
-      type: 'bar',
+      type: 'horizontalBar',
       data: {
         labels: ['HTML', 'CSS', 'Angular', 'Django REST API', 'Python', 'java','C++'],
         datasets: [{
@@ -44,7 +44,22 @@ export class SkillComponent implements AfterViewInit {
       },
       options: {
         scales: {
+          xAxes: [{
+            scaleLabel: {
+              display: true,
+              labelString: 'Percentage'
+            },
+            ticks: {
+              beginAtZero: true,
+              suggestedMin: 0,
+              suggestedMax: 100
+            }
+          }],
           yAxes: [{
+            scaleLabel: {
+              display: true,
+              labelString: 'known language'
+            },
             ticks: {
               beginAtZero: true,
               suggestedMin: 0,
